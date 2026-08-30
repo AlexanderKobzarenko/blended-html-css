@@ -1,1 +1,53 @@
-/* Сюди додавай стилі частинки Hero */
+.hero {
+  padding: 120px 20px;
+  background-color: #0b1d26;
+  color: #ffffff;
+  text-align: center;
+}
+
+.hero-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  margin: 0 0 24px;
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.hero-text {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.hero-button {
+  min-width: 180px;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #0b1d26;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    background-color 250ms ease,
+    color 250ms ease,
+    transform 250ms ease;
+}
+
+.hero-button:hover {
+  background-color: #0b1d26;
+  color: #ffffff;
+  outline: 1px solid #ffffff;
+  transform: translateY(-2px);
+}
+
+.hero-button:focus {
+  outline: 2px solid #ffffff;
+  outline-offset: 4px;
+}
